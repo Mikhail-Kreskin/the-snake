@@ -101,7 +101,7 @@ class Snake(GameObject):
             screen_height=480,
             body_color=(0, 255, 0),
             length=1,
-            positions=[(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2)],
+            positions=[(320, 240)],
             direction=RIGHT,
             next_direction=None,
             last=None):
