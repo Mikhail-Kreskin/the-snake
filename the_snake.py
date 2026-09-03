@@ -101,7 +101,7 @@ class Snake(GameObject):
             screen_height=480,
             body_color=(0, 255, 0),
             length=1,
-            positions=[(320, 240)],
+            positions=(320, 240),
             direction=RIGHT,
             next_direction=None,
             last=None):
@@ -109,7 +109,7 @@ class Snake(GameObject):
         super().__init__(screen_width, screen_height, body_color)
         self.body_color = body_color
         self.length = length
-        self.positions = positions
+        self.positions = [positions]
         self.direction = direction
         self.next_direction = next_direction
         self.last = last
